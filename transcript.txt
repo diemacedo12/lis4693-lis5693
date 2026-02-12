@@ -1,0 +1,80 @@
+Hi, in this video, we will see how to
+scrape Google search results using Python.
+We will use SERP API to make the
+scraping process fast and easy.
+First, sign up for free at SERPAPI.
+com after activating your
+account from your dashboard.
+You can copy your API key, then create a
+new env file to store this key like this.
+For the main program, we
+will create an empty main.
+py file.
+Moving to the terminal or command
+prompt, we need to install two packages.
+First, python.
+env, and second, SerpApi library itself.
+Back to our text editor, we import
+the os module to read the env
+file, as well as load the package.
+And then we assign a new variable
+called apiKey to get our apiKey
+from the env file itself.
+Next, import the SerpApi library.
+Then create a new client from SERP API
+instance using SERP API dot client, and
+then assign the API key as parameter.
+Now, we can perform a basic Google search
+with this method, client dot search.
+We assign few parameters.
+First, the keyword we want to search for.
+In this case, it's coffee.
+Feel free to change it.
+And then add Google as the engine.
+Add your location.
+You can put a country name, city,
+or state, and then language,
+as well as the geolocation.
+Now we can print the result.
+From the terminal, let's run this file.
+And after a few seconds, you will see the
+complete Google results in this response.
+This response includes things like
+the organic results, local results,
+local map, the knowledge graph.
+related questions and other information
+as well that you would normally
+find in the live google search.
+If you only need the organic result
+you can check it from this key.
+Let's run this file now you will only
+see the data from the organic results.
+Let's print it in a nice format like this.
+So we will look This organic result only
+show the title, link, and the snippet.
+Now you have this nice data
+from the Google organic result.
+How about getting the second,
+third page, and so on?
+We can easily paginate this result by
+playing with the num and start parameters.
+By default, the number of
+organic results it returned is
+up to 10 per page or per query.
+So to get the second page results,
+we add 10 at the start or 20 if you
+want to get the third page results.
+For example, this is the
+result for the third page.
+You can also change the number
+of results it returned by
+changing the name parameter.
+You can have up to 100 results.
+So if you know that you need results
+up to 100, you can directly change
+the name parameter rather than
+performing a pagination like before.
+Now it will show up to 100
+results from the Google search.
+Thank you for watching.
+See you in the next video.
